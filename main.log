@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.5.8)  16 MAY 2022 14:31
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.5.8)  17 MAY 2022 10:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1486,20 +1486,20 @@ Overfull \hbox (2.13394pt too wide) in paragraph at lines 230--231
  [] 
  []
 
-[1] (./main.aux)
+[1] [2] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 82E3634C44143A367192262E2274A58C;181.
+(rerunfilecheck)             Checksum: 845659A67C7ED0D2700B6C1D906597C0;718.
  ) 
 Here is how much of TeX's memory you used:
- 47156 strings out of 476156
- 1118745 string characters out of 5814964
- 1877932 words of memory out of 5000000
- 67150 multiletter control sequences out of 15000+600000
+ 47158 strings out of 476156
+ 1118767 string characters out of 5814964
+ 1882932 words of memory out of 5000000
+ 67152 multiletter control sequences out of 15000+600000
  482023 words of font info for 104 fonts, out of 8000000 for 9000
  1351 hyphenation exceptions out of 8191
- 100i,13n,104p,417b,714s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 100i,16n,104p,417b,714s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (1 page).
+Output written on main.pdf (2 pages).

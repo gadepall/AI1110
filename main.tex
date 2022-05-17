@@ -215,7 +215,7 @@ breaklines=true
 \end{tikzpicture}
 % \includegraphics[scale=0.05]{logo_iith} \newline
 
-& Quiz 1
+& Quizzes 
 	&
 	AI1110
 \end{tabular}
@@ -230,8 +230,9 @@ breaklines=true
 \end{tikzpicture}
 \par\end{center}
 
-\section{Definitions}
-\begin{enumerate}[label=\arabic*.,ref=\thesection.\theenumi]
+	\section{Axioms of Probability}
+\subsection{Definitions}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
 	\item For any event $A, 0 \le \pr{A} \le 1$.
 	\item $A \cup B \triangleq A+B $.
@@ -240,9 +241,9 @@ breaklines=true
 	\item If $AB = 0, \pr{A+B} = \pr{A} + \pr{B}$.
 	\item $\brak{A+B}^{\prime} = A^{\prime} B^{\prime}$
 \end{enumerate}
-\section{Problems}
+\subsection{Problems}
 Prove the following:
-\begin{enumerate}[label=\arabic*.,ref=\thesection.\theenumi]
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
 \item 
 	\begin{align}
@@ -263,6 +264,60 @@ Prove the following:
 
 \end{enumerate}
 
+\section{Binomial Distribution}
+
+\subsection{Definitions}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item The mean of $X$ is defined as
+\begin{align}
+E\brak{X} = \sum_{k}kp_X(k)
+\end{align}
+	\item The $Z$ transform of $X$ is defined as
+%	Z- Transform-Moment Generating Function\\ 
+	\begin{align}
+	M_X(z)=E\brak{z^{-X}} = \sum_{k = -\infty}^{\infty}z^{-k}p_X(k)
+	\end{align}
+	\item There is a one to one relationship betwwen the pmf and its Z transform.
+\item If 	If $X_1$ and $X_2$ are independent, 
+	\begin{align}
+	E\sbrak{f\brak{X_1}g\brak{X_2}} = 	E\sbrak{f\brak{X_1}} 	E\sbrak{g\brak{X_2}} 
+	\end{align}
+
+    \item For a Bernoulli random variable $X$, the pmf is
+    \begin{align}
+    p_X(n) =
+    \begin{cases}
+p & k = 1
+\\
+1-p & k = 0
+\\
+0 & \text{otherwise}
+    \end{cases}
+\end{align}
+\item $X_i$ are said to be i.i.d (independent and identically distributed) if they are independent and have the same pmf.
+\end{enumerate}
+\subsection{Problem}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Find the Z-transform for  $X$, given that $X$ is a Bernoulli random variable with parameter $p$.
+	\item If $X_1$ and $X_2$ are independent, and
+		\begin{align}
+Y = X_1 + X_2,
+	\end{align}
+	show that 
+			\begin{align}
+		M_{Y}(z)= 	M_{X_1}(z)		M_{X_2}(z)
+			\end{align}
+			\item Find the Z-transform of $Y$, given that $X_i$  are i.i.d  Bernoulli random variables with parameter $p$.
+			\item Find the pmf of $Y$.
+			\item Find the pmf of 
+		\begin{align}
+Y = \sum_{i=1}^{N}X_i, 
+	\end{align}
+	where $X_i$ are i.i.d.
+			
+\end{enumerate}
 
 
 \end{document}
