@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.5.8)  25 MAY 2022 13:39
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.5.8)  23 MAY 2022 23:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1314,66 +1314,66 @@ File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 192.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 191.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-192.
+191.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 192.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 191.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-192.
+191.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 192.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 192.
-LaTeX Font Info:    ... okay on input line 192.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 192.
-LaTeX Font Info:    ... okay on input line 192.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 191.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-92.
+91.
 
 (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 192.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 192.
-LaTeX Font Info:    ... okay on input line 192.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 191.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-192.
+191.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 192.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 191.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 1
-92.
+91.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 192.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 192.
-LaTeX Font Info:    ... okay on input line 192.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 192.
-LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
 
 -- Lines per column: 39 (approximate, difference = 13.59663pt).
-LaTeX Info: Redefining \celsius on input line 192.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 192
+LaTeX Info: Redefining \celsius on input line 191.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 191
 .
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 192.
-Package gensymb Info: Using \Omega for \ohm on input line 192.
+LaTeX Info: Redefining \ohm on input line 191.
+Package gensymb Info: Using \Omega for \ohm on input line 191.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1386,7 +1386,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 192.
+Package hyperref Info: Link coloring OFF on input line 191.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1399,9 +1399,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count382
 )
-LaTeX Info: Redefining \ref on input line 192.
-LaTeX Info: Redefining \pageref on input line 192.
-LaTeX Info: Redefining \nameref on input line 192.
+LaTeX Info: Redefining \ref on input line 191.
+LaTeX Info: Redefining \pageref on input line 191.
+LaTeX Info: Redefining \nameref on input line 191.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -1444,71 +1444,65 @@ LaTeX Info: Redefining \nameref on input line 192.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
-94.
+93.
 (/usr/share/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 19
-4.
+3.
 
 (/usr/share/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 1
-94.
+93.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 1
-94.
+93.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 1
-94.
+93.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 1
-94.
+93.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `TU/Nakula(0)/bx/n' in size <12> not available
 (Font)              Font shape `TU/Nakula(0)/b/n' tried instead on input line 2
-13.
+12.
 
-Overfull \hbox (2.13394pt too wide) in paragraph at lines 232--233
+Overfull \hbox (2.13394pt too wide) in paragraph at lines 231--232
  [] 
  []
 
-[1] [2] [3]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 422.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 422.
-
-[4] [5] (./main.aux)
+[1] [2] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E9D264663B76C6C0F13A21F59FA19DC4;1889.
+(rerunfilecheck)             Checksum: 82E3634C44143A367192262E2274A58C;181.
  ) 
 Here is how much of TeX's memory you used:
- 47167 strings out of 476156
- 1118877 string characters out of 5814964
- 1882932 words of memory out of 5000000
- 67160 multiletter control sequences out of 15000+600000
+ 47162 strings out of 476156
+ 1118822 string characters out of 5814964
+ 1883932 words of memory out of 5000000
+ 67155 multiletter control sequences out of 15000+600000
  483790 words of font info for 107 fonts, out of 8000000 for 9000
  1351 hyphenation exceptions out of 8191
- 100i,16n,104p,417b,714s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 100i,13n,104p,417b,714s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (5 pages).
+Output written on main.pdf (2 pages).

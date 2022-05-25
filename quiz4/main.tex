@@ -1,4 +1,4 @@
-% Copyright (C) 2020 Saurabh Joshi
+%% Copyright (C) 2020 Saurabh Joshi
 %% 
 \let\negmedspace\undefined
 \let\negthickspace\undefined
@@ -155,9 +155,7 @@ breaklines=true
 \providecommand{\mean}[1]{E\left[ #1 \right]}
 \providecommand{\fourier}{\overset{\mathcal{F}}{ \rightleftharpoons}}
 %\providecommand{\hilbert}{\overset{\mathcal{H}}{ \rightleftharpoons}}
-%\providecommand{\system}{\overset{\mathcal{H}}{ \longleftrightarrow}}
-\providecommand{\system}[1]{\overset{\mathcal{#1}}{ \longleftrightarrow}}
-%
+\providecommand{\system}{\overset{\mathcal{H}}{ \longleftrightarrow}}
 	%\newcommand{\solution}[2]{\textbf{Solution:}{#1}}
 \newcommand{\solution}{\noindent \textbf{Solution: }}
 \newcommand{\cosec}{\,\text{cosec}\,}
@@ -217,7 +215,7 @@ breaklines=true
 \end{tikzpicture}
 % \includegraphics[scale=0.05]{logo_iith} \newline
 
-& Quizzes 
+& Quiz 4 
 	&
 	AI1110
 \end{tabular}
@@ -232,99 +230,46 @@ breaklines=true
 \end{tikzpicture}
 \par\end{center}
 
-	\section{Axioms of Probability}
-\subsection{Definitions}
-\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
-\numberwithin{equation}{enumi}
-	\item For any event $A, 0 \le \pr{A} \le 1$.
-	\item $A \cup B \triangleq A+B $.
-	\item $A \cap B \triangleq AB $.
-	\item The null and complete event are $\phi = 0, S = 1$.
-	\item If $AB = 0, \pr{A+B} = \pr{A} + \pr{B}$.
-	\item $\brak{A+B}^{\prime} = A^{\prime} B^{\prime}$
-\end{enumerate}
-\subsection{Problems}
-Prove the following:
-\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
-\numberwithin{equation}{enumi}
-\item 
-	\begin{align}
-		 A= AB +  AB^{\prime}   
-	\end{align}
-\item 
-	\begin{align}
-		\pr{A}= \pr{AB} +  \pr{AB^{\prime}}
-	\end{align}
-\item 
-	\begin{align}
-		A + B = B + AB^{\prime}	
-	\end{align}
-\item 
-	\begin{align}
-		\pr{A + B} = \pr{A} + \pr{B} -\pr{ AB}
-	\end{align}
+%	\section{Axioms of Probability}
+%\subsection{Definitions}
+%\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+%\numberwithin{equation}{enumi}
+%	\item For any event $A, 0 \le \pr{A} \le 1$.
+%	\item $A \cup B \triangleq A+B $.
+%	\item $A \cap B \triangleq AB $.
+%	\item The null and complete event are $\phi = 0, S = 1$.
+%	\item If $AB = 0, \pr{A+B} = \pr{A} + \pr{B}$.
+%	\item $\brak{A+B}^{\prime} = A^{\prime} B^{\prime}$
+%\end{enumerate}
+%\subsection{Problems}
+%Prove the following:
+%\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+%\numberwithin{equation}{enumi}
+%\item 
+%	\begin{align}
+%		 A= AB +  AB^{\prime}   
+%	\end{align}
+%\item 
+%	\begin{align}
+%		\pr{A}= \pr{AB} +  \pr{AB^{\prime}}
+%	\end{align}
+%\item 
+%	\begin{align}
+%		A + B = B + AB^{\prime}	
+%	\end{align}
+%\item 
+%	\begin{align}
+%		\pr{A + B} = \pr{A} + \pr{B} -\pr{ AB}
+%	\end{align}
 
-\end{enumerate}
+%\end{enumerate}
 
-\section{Distribution of the sum of random variables}
+%\section{Binomial Distribution}
 
-\subsection{Definitions}
-\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
-\numberwithin{equation}{enumi}
-\item The mean of $X$ is defined as
-\begin{align}
-E\brak{X} = \sum_{k}kp_X(k)
-\end{align}
-	\item The $Z$ transform of $X$ is defined as
-%	Z- Transform-Moment Generating Function\\ 
-	\begin{align}
-	M_X(z)=E\brak{z^{-X}} = \sum_{k = -\infty}^{\infty}z^{-k}p_X(k)
-	\end{align}
-	\item There is a one to one relationship betwwen the pmf and its Z transform.
-\item If 	If $X_1$ and $X_2$ are independent, 
-	\begin{align}
-	E\sbrak{f\brak{X_1}g\brak{X_2}} = 	E\sbrak{f\brak{X_1}} 	E\sbrak{g\brak{X_2}} 
-	\end{align}
-
-    \item For a Bernoulli random variable $X$, the pmf is
-    \begin{align}
-    p_X(n) =
-    \begin{cases}
-p & k = 1
-\\
-1-p & k = 0
-\\
-0 & \text{otherwise}
-    \end{cases}
-\end{align}
-\item $X_i$ are said to be i.i.d (independent and identically distributed) if they are independent and have the same pmf.
-\end{enumerate}
-\subsection{Problem}
-\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
-\numberwithin{equation}{enumi}
-\item Find the Z-transform for  $X$, given that $X$ is a Bernoulli random variable with parameter $p$.
-	\item If $X_1$ and $X_2$ are independent, and
-		\begin{align}
-Y = X_1 + X_2,
-	\end{align}
-	show that 
-			\begin{align}
-		M_{Y}(z)= 	M_{X_1}(z)		M_{X_2}(z)
-			\end{align}
-			\item Find the Z-transform of $Y$, given that $X_i$  are i.i.d  Bernoulli random variables with parameter $p$.
-			\item Find the pmf of $Y$.
-			\item Find the pmf of 
-		\begin{align}
-Y = \sum_{i=1}^{N}X_i, 
-	\end{align}
-	where $X_i$ are i.i.d.
-			
-\end{enumerate}
-\section{Moments and variance}
-\subsection{Definitions}
-\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
-%\begin{enumerate}
-\numberwithin{equation}{enumi}
+\section{Definitions}
+\begin{enumerate}
+\numberwithin{equation}{section}
+%\numberwithin{equation}{enumi}
 %\item The pmf of $X$ is given by
 %\begin{align}
 %E\brak{X} = \sum_{k}kp_X(k)
@@ -351,42 +296,10 @@ Y = \sum_{i=1}^{N}X_i,
 %    \end{cases}
 %\end{align}
 %\item $X_i$ are said to be i.i.d (independent and identically distributed) if they are independent and have the same pmf.
-\item 
-The variance of $X$ is defined as: \begin{align}
-Var({X}) = E({X}-E({X}))^2
-\end{align}
-\item The $Z$ transform of $X$ is defined as 
-	\begin{align}
-	M_X(z)=E\brak{z^{-X}} = \sum_{k = -\infty}^{\infty}z^{-k}p_X(k)
-	\end{align}
-\item Let $X$ be a random variable with pmf. 
-\begin{align}
-    p_X(k) =
-    \begin{cases}
-1/6 & 1 \le k \le 6
-\\
-0 & \text{otherwise}
-    \end{cases}
-\end{align}
-$X$ is said to be Discrete Uniform Random Variable
-\item The $n^{th}$ moment of $X$ is defined as: 
-\begin{align}
-E({X^n}) = \sum_{k = -\infty}^{\infty}k^{n}p_X(k)
-\end{align}
-
-\end{enumerate}
-\subsection{Problems}
-\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
-\numberwithin{equation}{enumi}
-\item Show that $Var({X}) = E({X^2})-[E({X})]^2$
-\item Find $M_X(z)$
-\item Show that $E({X}) = \dfrac{d}{dz} M_X(z^{-1})$ $|_{z=1}$
-\item Find $E({X^2})$
-\item Find $Var({X})$. 
-	\section{Convolution}
-\subsection{Definitions}
-\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
-\numberwithin{equation}{enumi}
+%\item 
+%The variance of $X$ is defined as: \begin{align}
+%Var({X}) = E({X}-E({X}))^2
+%\end{align}
 \item The $Z$ transform of $X$ is defined as 
 	\begin{align}
 	M_X(z)=E\brak{z^{-X}} = \sum_{k = -\infty}^{\infty}z^{-k}p_X(k)
@@ -411,74 +324,34 @@ $X$ is said to be Discrete Uniform Random Variable
 & \vec{y} = \myvec{h_1&0&.&.&.&0\\h_2&h_1&.&.&.&0\\h_3&h_2&h_3&.&.&0\\h_{m-1}&.&.&.&h_2&h_1\\h_m&h_{m-1}&.&.&.&h_2\\.&.&.&.&.&.\\.&.&.&.&.&.\\0&0&.&.&.&h_m}\myvec{x_1\\x_2\\.\\.\\.\\.\\x_n}
 \end{align}
 \end{enumerate}
-\subsection{Problems}
+\section{Problems}
 \begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
+%\item Find the Z-transform for  $X$, given that $X$ is a Bernoulli random variable with parameter $p$.
+%	\item If $X_1$ and $X_2$ are independent, and
+%		\begin{align}
+%Y = X_1 + X_2,
+%	\end{align}
+%	show that 
+%			\begin{align}
+%		M_{Y}(z)= 	M_{X_1}(z)		M_{X_2}(z)
+%			\end{align}
+%			\item Find the Z-transform of $Y$, given that $X_i$  are i.i.d  Bernoulli random variables with parameter $p$.
+%			\item Find the pmf of $Y$.
+%			\item Find the pmf of 
+%		\begin{align}
+%Y = \sum_{i=1}^{N}X_i, 
+%	\end{align}
+%	where $X_i$ are i.i.d.
+%\item Find $Var\brak{X}$. Show that Var = E\brak{X^2} - [E\brak{X}]^2
+%\item Show that $Var({X}) = E({X^2})-[E({X})]^2$
+%\item Find $M_x(z)$
+%\item Show that $E({X}) = \dfrac{d}{dz} M_x(z^{-1})$ $|_{z=1}$
+%\item Find $E({X^2})$
+%\item Find $Var({X})$. 
 \item If $\vec{x} = \vec{h}= \dfrac{1}{2}\myvec{1\\1}$, find $\vec{y}$.
 \item Find $p_{X_1}(k) \circledast p_{X_2}(k)$ using toeplitz matrices.
 \item Find $M_Y(z)$, such that $Y =X_1 + X_2$
 \item Find $p_Y(k)$			
 \end{enumerate}
-		\section{$Z$-Transform Applications}
-\subsection{Definitions}
-\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
-\numberwithin{equation}{enumi}
-\item 
-	\begin{align}
-u(n) =
-\begin{cases}
-1 & n \ge 0
-\\
-0 & n < 0
-\end{cases}
-\end{align}
-
-\item The $Z$ transform of $X$ is defined as 
-	\begin{align}
-	M_X(z)=E\brak{z^{-X}} = \sum_{k = -\infty}^{\infty}z^{-k}p_X(k)
-	\end{align}
-\end{enumerate}
-\subsection{Problems}
-\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
-\numberwithin{equation}{enumi}
-\item If 
-\begin{align}
-p_Y(n) &\system{Z}M_Y(z), 
-\end{align}
-	show that
-\begin{align}
-p_Y(n-k) &\system{Z}M_Y(z)z^{-k},
-\end{align}
-\item Show that 
-\begin{align}
-u(n)&\system{Z} \frac{1}{\brak{1-z^{-1}}}, \quad \abs{z} > 1
-\end{align}
-\item Show that 
-\begin{align}
-nu(n)&\system{Z} \frac{z^{-1}}{\brak{1-z^{-1}}^2}, \quad \abs{z} > 1
-\end{align}
-
-\item Let 
-\begin{align}
-M_Y(z) &= \cbrak{\frac{z^{-1}\brak{1-z^{-6}}}{6\brak{1-z^{-1}}}}^2, \quad \abs{z} > 1
-%\\
-%&= \frac{1}{36}\frac{z^{-2}\brak{1-2z^{-6}+z^{-12}}}{\brak{1-z^{-1}}^2}
-\label{eq:dice_xzprod}
-\end{align}
-Show that 
-\begin{align}
-p_Y(n) &= 
-\frac{\brak{n-1}u(n-1) - 2 \brak{n-7}u(n-7)+\brak{n-13}u(n-13)}{36}
-%\\
-%&= \frac{1}{36}\frac{z^{-2}\brak{1-2z^{-6}+z^{-12}}}{\brak{1-z^{-1}}^2}
-\label{eq:dice_xprod}
-\end{align}
-\end{enumerate}
-
-			
-\end{enumerate}
-
-
-
-
 \end{document}
