@@ -56,6 +56,7 @@
 \usepackage{multicol}
 \usepackage{chngcntr}
 \usepackage{iftex}
+\usepackage{bm}
 %\usepackage[latin9]{inputenc}
 \usepackage{geometry}
 %\geometry{verbose,tmargin=2cm,bmargin=3cm,lmargin=1.8cm,rmargin=1.5cm,headheight=2cm,headsep=2cm,footskip=3cm}
@@ -216,7 +217,7 @@ breaklines=true
 \end{tikzpicture}
 % \includegraphics[scale=0.05]{logo_iith} \newline
 
-& Quiz 6
+& Quiz 8
 	&
 	AI1110
 \end{tabular}
@@ -231,125 +232,54 @@ breaklines=true
 \end{tikzpicture}
 \par\end{center}
 
-%	\section{Axioms of Probability}
-%\subsection{Definitions}
-%\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
-%\numberwithin{equation}{enumi}
-%	\item For any event $A, 0 \le \pr{A} \le 1$.
-%	\item $A \cup B \triangleq A+B $.
-%	\item $A \cap B \triangleq AB $.
-%	\item The null and complete event are $\phi = 0, S = 1$.
-%	\item If $AB = 0, \pr{A+B} = \pr{A} + \pr{B}$.
-%	\item $\brak{A+B}^{\prime} = A^{\prime} B^{\prime}$
-%\end{enumerate}
-%\subsection{Problems}
-%Prove the following:
-%\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
-%\numberwithin{equation}{enumi}
-%\item 
-%	\begin{align}
-%		 A= AB +  AB^{\prime}   
-%	\end{align}
-%\item 
-%	\begin{align}
-%		\pr{A}= \pr{AB} +  \pr{AB^{\prime}}
-%	\end{align}
-%\item 
-%	\begin{align}
-%		A + B = B + AB^{\prime}	
-%	\end{align}
-%\item 
-%	\begin{align}
-%		\pr{A + B} = \pr{A} + \pr{B} -\pr{ AB}
-%	\end{align}
-
-%\end{enumerate}
-
-%\section{Binomial Distribution}
 
 \section{Definitions}
 \begin{enumerate}[label=\arabic*.,ref=\thesection.\theenumi]
-\numberwithin{equation}{enumi}
-\numberwithin{figure}{enumi}
-\item Fig. 
-	\ref{fig:markov}
-	shows a 
-Markovs chain with 5 states.  Transition from one state to another happens
-over time.
-		$s_0$ and $s_4$ are absorbing states.
-		\begin{align}
-			p+q = 1
-		\end{align}
-\begin{figure}[H]
- \centering 
- \begin{tikzpicture}[->,>=stealth',shorten >=2pt, line width=1pt, node distance=3cm] 
- \node [circle, draw] (zero) {$s_0$};
-  \node [circle, draw] (one) [right of=zero] {$s_1$}; 
-  \node [circle, draw] (two) [right of  = one] {$s_2$}; 
-  \node [circle, draw] (three) [right of  = two] {$s_3$};
-  \node [circle, draw] (four) [right of  = three] {$s_4$};
-    
-  \path (zero) edge [loop left] node {$1$} (zero); 
-  \path [dashed, ->] (zero) edge [bend left=20]  node [above] {$p$} (one);
-  
-\path (one) edge  [bend left=20]  node [above] {q} (zero);
-\path (one) edge [bend left=20]  node [above] {$p$} (two);
-
-\path (two) edge [bend left = 20] node [above] {$q$} (one);
-\path (two) edge [bend left=20] node [above] {$p$} (three);
-
-\path (three) edge [bend left = 20] node [above] {$q$} (two);
-\path (three) edge [bend left = 20]  node [above] {$p$} (four);
-
-\path[dashed, ->] (four) edge [bend left = 20] node [above] {$q$} (three);
-\path (four) edge [loop right] node {$1$} (four); 
- \end{tikzpicture}
-	\caption{}
-	\label{fig:markov}
- \end{figure}
- 
- \item At time instant $n$, 
-	 \begin{align}
-		 \vec{p}^{\brak{n}} = \myvec{
-			 P_0^{\brak{n}} \\ P_1^{\brak{n}}\\ P_2^{\brak{n}}\\ P_3^{\brak{n}} \\ P_4^{\brak{n}}}
-	 \end{align}
-where $P_i^{\brak{n}}$ are defined to be the {\em stationary} probabilities.
-
- \item
-	 $P_{i|j}$ is defined as the {\em transition} probability of going to state $i$ from state $j$.
- \item For a matrix $\vec{A}$, let
- \begin{align}
- \vec{A}\vec{x} = \lambda\vec{x}.
- \end{align}
-Then  $\lambda$ is a scalar defined to be the eigenvalue of $\vec{A}$ and $\vec{x}$ is the corresponding eigenvector.
+		\numberwithin{equation}{enumi}
+\item Let
+\begin{align}
+	\vec{X} &= \myvec{x_1\\x_2}, \bm{\mu} = E\brak{\vec{X}}
+	%\myvec{\mu_x\\\mu_y}\\
+	\\
+	\vec{\Sigma_{x}} &= E\sbrak{\brak{\vec{x}-\bm{\mu}}\brak{ \vec{x}-\bm{\mu}}^{\top}}
+%\vec{\Sigma} = \myvec{\sigma^2_x&\rho\sigma_x\sigma_y\\\rho\sigma_x\sigma_y&\sigma^2_y}
+\end{align}
+		Then $\vec{\Sigma_{x}}$ is defined to be the {\em covariance} matrix  of $\vec{x}$.
+\item For $\vec{x} \sim \mathcal{N}\brak{\bm{\mu}, \vec{\Sigma_{x}}}$,
+\begin{align}
+	f_{\vec{X}}(\vec{x}) = \frac{1}{2\pi\sqrt{\abs{\vec{\Sigma_{x}}}}}\exp{{-\frac{1}{2}\brak{\brak{\vec{x}-\bm{\mu}}^\top\vec{\Sigma_{x}}^{-1}\brak{\vec{x}-\bm{\mu}}}}}
+\end{align}
+\item The {\em correlation coefficient} is defined as
+\begin{align}
+	\rho = \frac{E\sbrak{\brak{x_1-\mu_{1}}\brak{x_2-\mu_{2}}}}{\sigma_{1}\sigma_{2}}
+\end{align}
+where $\mu_i,\sigma_i^2$ are the mean and variance of $x_i$.
 \end{enumerate}
 \section{Problems}
 \begin{enumerate}[label=\arabic*.,ref=\thesection.\theenumi]
 \numberwithin{equation}{enumi}
+\item Show that
+\begin{align}
+	E\sbrak{\brak{\vec{x}-\bm{\mu}}\brak{\vec{x}-\bm{\mu}}^{\top}} = \myvec{\sigma^2_{1}&\rho\sigma_{1}\sigma_{2}\\\rho\sigma_{1}\sigma_{2}&\sigma^2_{2}}
+\end{align}
+\item Prove that $\vec{\Sigma_{x}}$ is a diagonal matrix when $x_1$ and $x_2$ are independent.
 \item Let
 \begin{align}
-&P_0^{(n+1)} = P_0^{(n)}\\
-&P_1^{(n+1)} = pP_0^{(n)} + qP_2^{(n)} \\
-&P_2^{(n+1)} = pP_1^{(n)} + qP_3^{(n)} \\
-&P_3^{(n+1)} = pP_2^{(n)} + qP_4^{(n)} \\
-&P_4^{(n+1)} = P_4^{(n)}
+z_1 = x_1+x_2 \\ 
+z_2 = x_1-x_2 
 \end{align}
-Find the matrix $\vec{P}$ such that $\vec{p^{(n+1)}} = \vec{P}\vec{p^{(n)}}	$
-\item Show that 1 is an eigen value of $\vec{P}.$
+		Find $\vec{P}$ such that
+\begin{align}
+	\vec{z} =\myvec{z_1\\ z_2}  = \vec{P}\vec{x}
+\end{align}
 \item Show that 
-\begin{align}
-	P_2^{(n+1)} = pP_1^{(n)} + qP_3^{(n)}
-\end{align}
-
-\item If $P_0 =1, P_N = 0$ and
-\begin{align}
-P_i = p P_{i-1}+qP_{i+1}
-\end{align}
-	show that 
-\begin{align}
-	P_i =	\dfrac{1-\left(\dfrac{p}{q}\right)^i}{1-\left(\dfrac{p}{q}\right)^N}, 0\leq i\leq N-1
-\end{align}
-\item Find the angle between the two lines $2x = 3y = -z$ and $6x = -y = -4z$.
-
+	\begin{align} 
+\vec{\Sigma_{z}} = \vec{P} \vec{\Sigma_x} \vec{P}^{\top} 
+\end{align} 
+\item 
+	 Check the independence of $z_1$ and $z_2$ given that $\sigma_{x_1} = \sigma_{x_2}$.
+\item Show that columns of $\vec{P}$ are eigenvectors of $\vec{\Sigma_z}$.
+\item Show that the eigenvectors of $\vec{P}$ are orthogonal to each other.
+\item Summarize your conclusion in one line.
 \end{enumerate}
 \end{document}

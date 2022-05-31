@@ -216,7 +216,7 @@ breaklines=true
 \end{tikzpicture}
 % \includegraphics[scale=0.05]{logo_iith} \newline
 
-& Quiz 6
+& Quiz 7
 	&
 	AI1110
 \end{tabular}
@@ -231,125 +231,46 @@ breaklines=true
 \end{tikzpicture}
 \par\end{center}
 
-%	\section{Axioms of Probability}
-%\subsection{Definitions}
-%\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
-%\numberwithin{equation}{enumi}
-%	\item For any event $A, 0 \le \pr{A} \le 1$.
-%	\item $A \cup B \triangleq A+B $.
-%	\item $A \cap B \triangleq AB $.
-%	\item The null and complete event are $\phi = 0, S = 1$.
-%	\item If $AB = 0, \pr{A+B} = \pr{A} + \pr{B}$.
-%	\item $\brak{A+B}^{\prime} = A^{\prime} B^{\prime}$
-%\end{enumerate}
-%\subsection{Problems}
-%Prove the following:
-%\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
-%\numberwithin{equation}{enumi}
-%\item 
-%	\begin{align}
-%		 A= AB +  AB^{\prime}   
-%	\end{align}
-%\item 
-%	\begin{align}
-%		\pr{A}= \pr{AB} +  \pr{AB^{\prime}}
-%	\end{align}
-%\item 
-%	\begin{align}
-%		A + B = B + AB^{\prime}	
-%	\end{align}
-%\item 
-%	\begin{align}
-%		\pr{A + B} = \pr{A} + \pr{B} -\pr{ AB}
-%	\end{align}
-
-%\end{enumerate}
-
-%\section{Binomial Distribution}
 
 \section{Definitions}
-\begin{enumerate}[label=\arabic*.,ref=\thesection.\theenumi]
-\numberwithin{equation}{enumi}
-\numberwithin{figure}{enumi}
-\item Fig. 
-	\ref{fig:markov}
-	shows a 
-Markovs chain with 5 states.  Transition from one state to another happens
-over time.
-		$s_0$ and $s_4$ are absorbing states.
-		\begin{align}
-			p+q = 1
-		\end{align}
-\begin{figure}[H]
- \centering 
- \begin{tikzpicture}[->,>=stealth',shorten >=2pt, line width=1pt, node distance=3cm] 
- \node [circle, draw] (zero) {$s_0$};
-  \node [circle, draw] (one) [right of=zero] {$s_1$}; 
-  \node [circle, draw] (two) [right of  = one] {$s_2$}; 
-  \node [circle, draw] (three) [right of  = two] {$s_3$};
-  \node [circle, draw] (four) [right of  = three] {$s_4$};
-    
-  \path (zero) edge [loop left] node {$1$} (zero); 
-  \path [dashed, ->] (zero) edge [bend left=20]  node [above] {$p$} (one);
-  
-\path (one) edge  [bend left=20]  node [above] {q} (zero);
-\path (one) edge [bend left=20]  node [above] {$p$} (two);
+\begin{enumerate}
+\numberwithin{equation}{section}
+\item The CDF of $X$ is defined as,
+\begin{align}
+	F_X(x) = \pr{X \leq x}
+\end{align}
+\item The PDF of $X$ is defined as,
 
-\path (two) edge [bend left = 20] node [above] {$q$} (one);
-\path (two) edge [bend left=20] node [above] {$p$} (three);
-
-\path (three) edge [bend left = 20] node [above] {$q$} (two);
-\path (three) edge [bend left = 20]  node [above] {$p$} (four);
-
-\path[dashed, ->] (four) edge [bend left = 20] node [above] {$q$} (three);
-\path (four) edge [loop right] node {$1$} (four); 
- \end{tikzpicture}
-	\caption{}
-	\label{fig:markov}
- \end{figure}
- 
- \item At time instant $n$, 
-	 \begin{align}
-		 \vec{p}^{\brak{n}} = \myvec{
-			 P_0^{\brak{n}} \\ P_1^{\brak{n}}\\ P_2^{\brak{n}}\\ P_3^{\brak{n}} \\ P_4^{\brak{n}}}
-	 \end{align}
-where $P_i^{\brak{n}}$ are defined to be the {\em stationary} probabilities.
-
- \item
-	 $P_{i|j}$ is defined as the {\em transition} probability of going to state $i$ from state $j$.
- \item For a matrix $\vec{A}$, let
- \begin{align}
- \vec{A}\vec{x} = \lambda\vec{x}.
- \end{align}
-Then  $\lambda$ is a scalar defined to be the eigenvalue of $\vec{A}$ and $\vec{x}$ is the corresponding eigenvector.
+\begin{align}
+p_X(x) = \dfrac{d}{dx}F_X(x)
+\end{align}
+\item Let 
+ $X \sim \mathcal{N}(\mu, \sigma^2)$.  Then the 
+	$Q$ function is defined as,
+\begin{align}
+	Q(x) = \pr{X>x}, \quad x \ge 0
+\end{align}
 \end{enumerate}
 \section{Problems}
-\begin{enumerate}[label=\arabic*.,ref=\thesection.\theenumi]
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
 \numberwithin{equation}{enumi}
-\item Let
+\item Find 
 \begin{align}
-&P_0^{(n+1)} = P_0^{(n)}\\
-&P_1^{(n+1)} = pP_0^{(n)} + qP_2^{(n)} \\
-&P_2^{(n+1)} = pP_1^{(n)} + qP_3^{(n)} \\
-&P_3^{(n+1)} = pP_2^{(n)} + qP_4^{(n)} \\
-&P_4^{(n+1)} = P_4^{(n)}
+	\pr{\abs{X-\mu} \leq k\sigma}
 \end{align}
-Find the matrix $\vec{P}$ such that $\vec{p^{(n+1)}} = \vec{P}\vec{p^{(n)}}	$
-\item Show that 1 is an eigen value of $\vec{P}.$
-\item Show that 
+ in terms of $Q$ function.
+\item Find 
 \begin{align}
-	P_2^{(n+1)} = pP_1^{(n)} + qP_3^{(n)}
+	\pr{X \leq x, \abs{X-\mu} \leq k\sigma}
 \end{align}
-
-\item If $P_0 =1, P_N = 0$ and
+		in terms of $F_X(x)$
+\item Find 
 \begin{align}
-P_i = p P_{i-1}+qP_{i+1}
+	F_X\brak{x | \abs{X-\mu} \leq k\sigma}
 \end{align}
-	show that 
+\item Find 
 \begin{align}
-	P_i =	\dfrac{1-\left(\dfrac{p}{q}\right)^i}{1-\left(\dfrac{p}{q}\right)^N}, 0\leq i\leq N-1
+	p_X\brak{x | \abs{X-\mu} \leq k\sigma}
 \end{align}
-\item Find the angle between the two lines $2x = 3y = -z$ and $6x = -y = -4z$.
-
 \end{enumerate}
 \end{document}
