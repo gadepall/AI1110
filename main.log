@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.5.8)  31 MAY 2022 07:01
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.5.8)  31 MAY 2022 11:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1508,20 +1508,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: EB3452E7DD11C213FD9562895BFC270B;2472
-(rerunfilecheck)             After:  9880116CD4A3FDD0EB5D828EEA8109C6;2918.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 9880116CD4A3FDD0EB5D828EEA8109C6;2918.
  ) 
 Here is how much of TeX's memory you used:
- 47397 strings out of 476156
- 1122955 string characters out of 5814964
- 1884786 words of memory out of 5000000
- 67384 multiletter control sequences out of 15000+600000
+ 47398 strings out of 476156
+ 1122966 string characters out of 5814964
+ 1884787 words of memory out of 5000000
+ 67385 multiletter control sequences out of 15000+600000
  486838 words of font info for 116 fonts, out of 8000000 for 9000
  1351 hyphenation exceptions out of 8191
  100i,16n,104p,417b,1165s stack positions out of 5000i,500n,10000p,200000b,80000s
