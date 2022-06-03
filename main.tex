@@ -658,6 +658,74 @@ z_2 = x_1-x_2
 \item Show that the eigenvectors of $\vec{\Sigma_z}$ are orthogonal to each other.
 \item Summarize your conclusion in one line.
 \end{enumerate}
+%
+\section{Transformation of Random Variables}
+\subsection{Definitions}
 
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+	\item  The pdf of $X \sim \mathcal{N}\brak{\mu,\sigma^2}$ is defined as
+\begin{align}
+	f_X\brak{x} = \frac{1}{\sqrt{2 \pi \sigma^2}} \exp ^-{\frac{(x- \mu)^2}{2\sigma^2}} \quad -\infty < x < \infty
+\end{align}
+\item The Jacobian matrix transforming $R, \Theta$ to $X_1,X_2$  is defined as 
+\begin{align}
+	\vec{J} = \myvec{
+		\frac{\partial X_1}{\partial R}
+		& \frac{\partial X_1}{\partial \Theta} \\
+		\frac{\partial X_2}{\partial R}
+		&\frac{\partial X_2}{\partial \Theta}
+		}
+\end{align}
+\item 
+\begin{align}
+		p_{R, \Theta} \brak{r, \theta} 
+ = 
+	p_{X_1,X_2}\brak{x_1,x_2} \mydet{\vec{J}}
+\end{align}
+\item The marginal distribution 
+\begin{align}
+	p_R(r) = \int_{0}^{2\pi}
+		p_{R, \Theta} \brak{r, \theta} \, d\theta
+\end{align}
+\item The Laplace transform of $p_Y(y)$ is given by 
+\begin{align}
+	M_{Y}(s) = E\brak{e^{-sY}}
+\end{align}
+\item The unit step function is defined as 
+\begin{align}
+	u(y) = 
+	\begin{cases}
+		1 & y \ge 0
+		\\
+		0 & \text{otherwise}
+	\end{cases}
+\end{align}
+
+\end{enumerate}
+\subsection{Problems}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Let $X_1,X_2 \in N\sim (0,1)$ be i.i.d.
+	Find $p_{X_1,X_2}\brak{x_1,x_2}$.
+\item Let
+\begin{align}
+X_1 = R\cos \Theta  \\
+X_2 = R\sin \Theta 
+\end{align}
+		Find $p_{R, \theta} \brak{r, \theta}$. 
+	\item Find $ p_R(r)$.
+	\item Find $p_{\Theta}(\theta)$.
+\item Find the distribution of 
+\begin{align}
+Y = X_1^2+X_2^2
+	\label{eq:exp}
+\end{align} 
+\item Find the Laplace transform of $e^{-y}u(y)$
+\item Find the Laplace transform of $p_{X_1^2}(x_1)$.
+\item Find the Laplace transform of $p_Y(y)$ using 
+	\eqref{eq:exp}.
+\item Find the distribution of $Y$.
+\end{enumerate}
 
 \end{document}
