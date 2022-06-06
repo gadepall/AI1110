@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.5.8)  6 JUN 2022 12:31
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.5.8)  6 JUN 2022 12:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -697,7 +697,88 @@ File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 topaths.code.tex
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-))) (/usr/share/texmf-dist/tex/latex/circuitikz/circuitikz.sty
+)))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.code.tex
+File: tikzlibraryshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geomet
+ric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.c
+ode.tex
+File: pgflibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbol
+s.code.tex
+File: pgflibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows
+.code.tex
+File: pgflibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.callouts.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callou
+ts.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multip
+art.code.tex
+File: pgflibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodepartlowerbox=\box72
+\pgfnodeparttwobox=\box73
+\pgfnodepartthreebox=\box74
+\pgfnodepartfourbox=\box75
+\pgfnodeparttwentybox=\box76
+\pgfnodepartnineteenbox=\box77
+\pgfnodeparteighteenbox=\box78
+\pgfnodepartseventeenbox=\box79
+\pgfnodepartsixteenbox=\box80
+\pgfnodepartfifteenbox=\box81
+\pgfnodepartfourteenbox=\box82
+\pgfnodepartthirteenbox=\box83
+\pgfnodeparttwelvebox=\box84
+\pgfnodepartelevenbox=\box85
+\pgfnodeparttenbox=\box86
+\pgfnodepartninebox=\box87
+\pgfnodeparteightbox=\box88
+\pgfnodepartsevenbox=\box89
+\pgfnodepartsixbox=\box90
+\pgfnodepartfivebox=\box91
+)))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+arrows.code.tex
+File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\arrowsize=\dimen302
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+positioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texmf-dist/tex/latex/circuitikz/circuitikz.sty
 Package: circuitikz 2022/02/04{} The CircuiTikz circuit drawing package version
  1.4.6
 
@@ -707,10 +788,10 @@ File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowinset=\dimen302
-\pgfarrowlength=\dimen303
-\pgfarrowwidth=\dimen304
-\pgfarrowlinewidth=\dimen305
+\pgfarrowinset=\dimen303
+\pgfarrowlength=\dimen304
+\pgfarrowwidth=\dimen305
+\pgfarrowlinewidth=\dimen306
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 bending.code.tex
@@ -722,17 +803,17 @@ File: pgfmodulebending.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineartransformation
 s.code.tex
 File: pgfmodulenonlineartransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgftransformnonlinearflatness=\dimen306
+\pgftransformnonlinearflatness=\dimen307
 )
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvilinear.code.tex
 File: pgflibrarycurvilinear.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@curvilinear@time@a=\dimen307
-\pgf@curvilinear@length@a=\dimen308
-\pgf@curvilinear@length@b=\dimen309
-\pgf@curvilinear@length@c=\dimen310
-\pgf@curvilinear@length@d=\dimen311
+\pgf@curvilinear@time@a=\dimen308
+\pgf@curvilinear@length@a=\dimen309
+\pgf@curvilinear@length@b=\dimen310
+\pgf@curvilinear@length@c=\dimen311
+\pgf@curvilinear@length@d=\dimen312
 )
-\pgf@arrows@the@rigidity=\dimen312
+\pgf@arrows@the@rigidity=\dimen313
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 fpu.code.tex
@@ -741,20 +822,20 @@ fpu.code.tex
 \pgf@circ@count@a=\count319
 \pgf@circ@count@b=\count320
 \pgf@circ@count@c=\count321
-\pgf@circ@res@up=\dimen313
-\pgf@circ@res@down=\dimen314
-\pgf@circ@res@zero=\dimen315
-\pgf@circ@res@left=\dimen316
-\pgf@circ@res@right=\dimen317
-\pgf@circ@res@other=\dimen318
-\pgf@circ@res@step=\dimen319
-\pgf@circ@res@temp=\dimen320
-\pgf@circ@Rlen=\dimen321
-\pgf@circ@scaled@Rlen=\dimen322
-\pgfstartlinewidth=\dimen323
+\pgf@circ@res@up=\dimen314
+\pgf@circ@res@down=\dimen315
+\pgf@circ@res@zero=\dimen316
+\pgf@circ@res@left=\dimen317
+\pgf@circ@res@right=\dimen318
+\pgf@circ@res@other=\dimen319
+\pgf@circ@res@step=\dimen320
+\pgf@circ@res@temp=\dimen321
+\pgf@circ@Rlen=\dimen322
+\pgf@circ@scaled@Rlen=\dimen323
+\pgfstartlinewidth=\dimen324
 )
 (/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex
-\ctikz@scratchbox=\box72
+\ctikz@scratchbox=\box92
 )
 (/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex)
 (/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex)
@@ -767,7 +848,7 @@ fpu.code.tex
 (/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircmultipoles.tex)
 (/usr/share/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex)
 (/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex
-\pgfcirc@labelshift=\dimen324
+\pgfcirc@labelshift=\dimen325
 )
 (/usr/share/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
 (/usr/share/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex))
@@ -818,7 +899,7 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen325
+\@linkdim=\dimen326
 \Hy@linkcounter=\count323
 \Hy@pagecounter=\count324
 
@@ -850,7 +931,7 @@ Package hyperref Info: Bookmarks ON on input line 4390.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4749.
-\XeTeXLinkMargin=\dimen326
+\XeTeXLinkMargin=\dimen327
 
 (/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -860,8 +941,8 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count327
-\Field@Width=\dimen327
-\Fld@charsize=\dimen328
+\Field@Width=\dimen328
+\Fld@charsize=\dimen329
 Package hyperref Info: Hyper figures OFF on input line 6027.
 Package hyperref Info: Link nesting OFF on input line 6032.
 Package hyperref Info: Hyper index ON on input line 6035.
@@ -889,7 +970,7 @@ File: hxetex.def 2022-02-21 v7.00n Hyperref driver for XeTeX
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box73
+\pdfm@box=\box93
 \c@Hy@AnnotLevel=\count331
 \HyField@AnnotCount=\count332
 \Fld@listcount=\count333
@@ -920,14 +1001,6 @@ angles.code.tex
 File: tikzlibraryangles.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-arrows.code.tex
-File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-
-(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
-File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\arrowsize=\dimen329
-))
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 decorations.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen330
@@ -939,7 +1012,7 @@ decorations.code.tex
 \pgfdecorationsegmentamplitude=\dimen335
 \pgfdecorationsegmentlength=\dimen336
 )
-\tikz@lib@dec@box=\box74
+\tikz@lib@dec@box=\box94
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 decorations.markings.code.tex
@@ -957,9 +1030,9 @@ ons.shapes.code.tex))
 decorations.text.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorati
 ons.text.code.tex
-\pgf@lib@dec@text@box=\box75
+\pgf@lib@dec@text@box=\box95
 )
-\tikz@lib@dec@te@box=\box76
+\tikz@lib@dec@te@box=\box96
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 decorations.pathmorphing.code.tex
@@ -981,15 +1054,7 @@ File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 quotes.code.tex
 File: tikzlibraryquotes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-shapes.misc.code.tex
-File: tikzlibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-
-(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.c
-ode.tex
-File: pgflibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)) (/usr/share/texmf-dist/tex/latex/l3packages/xfp/xfp.sty
+) (/usr/share/texmf-dist/tex/latex/l3packages/xfp/xfp.sty
 (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2022-04-10 L3 programming layer (loader) 
 
@@ -998,7 +1063,7 @@ File: l3backend-xetex.def 2022-04-14 L3 backend support: XeTeX
 \l__color_backend_stack_int=\count337
 \g__color_backend_stack_int=\count338
 \g__graphics_track_int=\count339
-\l__pdf_internal_box=\box77
+\l__pdf_internal_box=\box97
 \g__pdf_backend_object_int=\count340
 \g__pdf_backend_annotation_int=\count341
 \g__pdf_backend_link_int=\count342
@@ -1087,7 +1152,7 @@ Local configuration file tkz-euclide.cfg found and used
 2022/02/25 4.051b tkz-obj-eu-triangles.tex
 )) (/usr/share/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count344
-\lst@gtempboxa=\box78
+\lst@gtempboxa=\box98
 \lst@token=\toks45
 \lst@length=\count345
 \lst@currlwidth=\dimen350
@@ -1103,7 +1168,7 @@ Local configuration file tkz-euclide.cfg found and used
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 \c@lstnumber=\count350
 \lst@skipnumbers=\count351
-\lst@framebox=\box79
+\lst@framebox=\box99
 )
 (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -1113,12 +1178,12 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 (/usr/share/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen354
-\ar@mcellbox=\box80
+\ar@mcellbox=\box100
 \extrarowheight=\dimen355
 \NC@list=\toks46
 \extratabsurround=\skip73
 \backup@length=\skip74
-\ar@cellbox=\box81
+\ar@cellbox=\box101
 )
 (/usr/share/texmf-dist/tex/latex/tools/hhline.sty
 Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
@@ -1132,7 +1197,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 (/usr/share/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \c@tracingmulticols=\count352
-\mult@box=\box82
+\mult@box=\box102
 \multicol@leftmargin=\dimen356
 \c@unbalance=\count353
 \c@collectmore=\count354
@@ -1145,33 +1210,13 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \postmulticols=\dimen360
 \multicolsep=\skip75
 \multicolbaselineskip=\skip76
-\partial@page=\box83
-\last@line=\box84
+\partial@page=\box103
+\last@line=\box104
 \maxbalancingoverflow=\dimen361
-\mult@rightbox=\box85
-\mult@grightbox=\box86
-\mult@firstbox=\box87
-\mult@gfirstbox=\box88
-\@tempa=\box89
-\@tempa=\box90
-\@tempa=\box91
-\@tempa=\box92
-\@tempa=\box93
-\@tempa=\box94
-\@tempa=\box95
-\@tempa=\box96
-\@tempa=\box97
-\@tempa=\box98
-\@tempa=\box99
-\@tempa=\box100
-\@tempa=\box101
-\@tempa=\box102
-\@tempa=\box103
-\@tempa=\box104
-\@tempa=\box105
-\@tempa=\box106
-\@tempa=\box107
-\@tempa=\box108
+\mult@rightbox=\box105
+\mult@grightbox=\box106
+\mult@firstbox=\box107
+\mult@gfirstbox=\box108
 \@tempa=\box109
 \@tempa=\box110
 \@tempa=\box111
@@ -1188,14 +1233,34 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \@tempa=\box122
 \@tempa=\box123
 \@tempa=\box124
+\@tempa=\box125
+\@tempa=\box126
+\@tempa=\box127
+\@tempa=\box128
+\@tempa=\box129
+\@tempa=\box130
+\@tempa=\box131
+\@tempa=\box132
+\@tempa=\box133
+\@tempa=\box134
+\@tempa=\box135
+\@tempa=\box136
+\@tempa=\box137
+\@tempa=\box138
+\@tempa=\box139
+\@tempa=\box140
+\@tempa=\box141
+\@tempa=\box142
+\@tempa=\box143
+\@tempa=\box144
 \c@minrows=\count358
 \c@columnbadness=\count359
 \c@finalcolumnbadness=\count360
 \last@try=\dimen362
 \multicolovershoot=\dimen363
 \multicolundershoot=\dimen364
-\mult@nat@firstbox=\box125
-\colbreak@box=\box126
+\mult@nat@firstbox=\box145
+\colbreak@box=\box146
 \mc@col@check@num=\count361
 )
 (/usr/share/texmf-dist/tex/latex/chngcntr/chngcntr.sty
@@ -1222,14 +1287,13 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen372
 \Gm@dimlist=\toks47
 )
-(/usr/share/texmf-dist/tex/latex/tools/bm.sty
-Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
-\symboldoperators=\mathgroup11
-\symboldletters=\mathgroup12
-\symboldsymbols=\mathgroup13
-\symboldlargesymbols=\mathgroup14
-Package bm Info: No bold for \U/rsfs/m/n, using \pmb.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+(/usr/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count365
+\float@exts=\toks48
+\float@box=\box147
+\@float@everytoks=\toks49
+\@floatcapt=\box148
 )
 (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
@@ -1248,17 +1312,17 @@ Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 (/usr/share/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count365
-\l__fontspec_language_int=\count366
-\l__fontspec_strnum_int=\count367
-\l__fontspec_tmp_int=\count368
-\l__fontspec_tmpa_int=\count369
-\l__fontspec_tmpb_int=\count370
-\l__fontspec_tmpc_int=\count371
-\l__fontspec_em_int=\count372
-\l__fontspec_emdef_int=\count373
-\l__fontspec_strong_int=\count374
-\l__fontspec_strongdef_int=\count375
+\l__fontspec_script_int=\count366
+\l__fontspec_language_int=\count367
+\l__fontspec_strnum_int=\count368
+\l__fontspec_tmp_int=\count369
+\l__fontspec_tmpa_int=\count370
+\l__fontspec_tmpb_int=\count371
+\l__fontspec_tmpc_int=\count372
+\l__fontspec_em_int=\count373
+\l__fontspec_emdef_int=\count374
+\l__fontspec_strong_int=\count375
+\l__fontspec_strongdef_int=\count376
 \l__fontspec_tmpa_dim=\dimen373
 \l__fontspec_tmpb_dim=\dimen374
 \l__fontspec_tmpc_dim=\dimen375
@@ -1314,80 +1378,81 @@ File: lstlang3.sty 2020/03/24 1.8d listings language file
 (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 )
-\c@theorem=\count376
-\c@problem=\count377
-\c@proposition=\count378
-\c@lemma=\count379
-\c@example=\count380
-\c@rem=\count381
+\c@theorem=\count377
+\c@problem=\count378
+\c@proposition=\count379
+\c@lemma=\count380
+\c@example=\count381
+\c@rem=\count382
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 193.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 191.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-193.
+191.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 193.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 191.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-193.
+191.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 193.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 191.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-93.
+91.
 
 (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 193.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 191.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-193.
+191.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 193.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 191.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 1
-93.
+91.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 191.
+LaTeX Font Info:    ... okay on input line 191.
 
 -- Lines per column: 39 (approximate, difference = 13.59663pt).
-LaTeX Info: Redefining \celsius on input line 193.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 193
+LaTeX Info: Redefining \celsius on input line 191.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 191
 .
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 193.
-Package gensymb Info: Using \Omega for \ohm on input line 193.
+LaTeX Info: Redefining \ohm on input line 191.
+Package gensymb Info: Using \Omega for \ohm on input line 191.
 
 Package gensymb Warning: Not defining \micro.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
@@ -1395,7 +1460,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 193.
+Package hyperref Info: Link coloring OFF on input line 191.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1406,17 +1471,17 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count382
+\c@section@level=\count383
 )
-LaTeX Info: Redefining \ref on input line 193.
-LaTeX Info: Redefining \pageref on input line 193.
-LaTeX Info: Redefining \nameref on input line 193.
+LaTeX Info: Redefining \ref on input line 191.
+LaTeX Info: Redefining \pageref on input line 191.
+LaTeX Info: Redefining \nameref on input line 191.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-\c@lstlisting=\count383
+\c@lstlisting=\count384
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1453,71 +1518,62 @@ LaTeX Info: Redefining \nameref on input line 193.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
-95.
+93.
 (/usr/share/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 19
-5.
+3.
 
 (/usr/share/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 1
-95.
+93.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 1
-95.
+93.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 1
-95.
+93.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 1
-95.
+93.
 
 (/usr/share/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `TU/Nakula(0)/bx/n' in size <12> not available
 (Font)              Font shape `TU/Nakula(0)/b/n' tried instead on input line 2
-14.
+12.
 
-Overfull \hbox (2.13394pt too wide) in paragraph at lines 233--234
+Overfull \hbox (2.13394pt too wide) in paragraph at lines 231--232
  [] 
  []
 
-[1] [2] [3]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 424.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 424.
-
-[4] [5] [6] [7] [8] [9] [10] (./main.aux)
+[1] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 81F99F89E3738A4A1504EE10333F42DD;3695.
+(rerunfilecheck)             Checksum: 82E3634C44143A367192262E2274A58C;181.
  ) 
 Here is how much of TeX's memory you used:
- 47401 strings out of 476156
- 1122997 string characters out of 5814964
- 1884787 words of memory out of 5000000
- 67388 multiletter control sequences out of 15000+600000
- 486838 words of font info for 116 fonts, out of 8000000 for 9000
+ 48923 strings out of 476156
+ 1169905 string characters out of 5814964
+ 1960144 words of memory out of 5000000
+ 68877 multiletter control sequences out of 15000+600000
+ 482023 words of font info for 104 fonts, out of 8000000 for 9000
  1351 hyphenation exceptions out of 8191
- 100i,16n,104p,417b,1165s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 100i,13n,104p,436b,715s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (10 pages).
+Output written on main.pdf (1 page).

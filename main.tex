@@ -728,4 +728,44 @@ Y = X_1^2+X_2^2
 \item Find the distribution of $Y$.
 \end{enumerate}
 
+\section{Order Statistics}
+\subsection{Definitions}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item The pdf of an {\em exponential} distribution is given by 
+\begin{align}
+	p_X(x) = e^{-x}u(x) 
+\end{align}
+		where $u\brak{\cdot}$ is the unit step function.
+\end{enumerate}
+\subsection{Problems}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Find $F_X(x)$.
+\item  Let $X$ and $Y$ be iid exponential.   Find
+	$F_{XY}\brak{z,z}$
+\item  Show that
+\begin{align}
+	\pr{X\leq z,X>Y} &= \int _{x = -\infty}^{z}\int _{y=-\infty}^{x} p_{X,Y}(x,y) \,dxdy 
+	\\
+	&= \frac{e^{-2z}}{2} - e^{-z}
+\end{align}
+\item Find 
+\begin{align}
+	\pr{Y\leq z,X\leq Y} 
+\end{align}
+\item Let 
+\begin{align}
+Z = \max(X,Y)
+\end{align}
+Show that
+\begin{align}
+	F_Z(z) =\pr{X\leq z,X>Y}+ \pr{Y\leq z,X\leq Y}
+\end{align}
+\item Find the pdf of $Z$.
+\item Find the pdf of $W=\min(X,Y)$.
+\item Find $F_{W}(vZ)$, where $v$ is a constant.
+\item Find $E\sbrak{F_{W}(vZ)}$.
+\item Find the pdf of $V = \frac{W}{Z}$.
+\end{enumerate}
 \end{document}
