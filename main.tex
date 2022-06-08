@@ -580,7 +580,7 @@ P_i =	\frac{\left(\frac{p}{q}\right)^i-\left(\frac{p}{q}\right)^N}{1-\left(\frac
 p_X(x) = \dfrac{d}{dx}F_X(x)
 \end{align}
 \item Let 
- $X \sim \mathcal{N}(\mu, \sigma^2)$.  Then the 
+ $X \sim \mathcal{N}(0, 1)$.  Then the 
 	$Q$ function is defined as,
 \begin{align}
 	Q(x) = \pr{X>x}, \quad x \ge 0
@@ -768,4 +768,114 @@ Show that
 \item Find $E\sbrak{F_{W}(vZ)}$.
 \item Find the pdf of $V = \frac{W}{Z}$.
 \end{enumerate}
+\section{Some distributions}
+\subsection{Definitions}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item If $Y = f(Z)$ be monotonic,
+	\begin{align}
+		p_Y(y) \, dy = p_Z(z)\,dz
+	\end{align}
+\item The pdf of the $\chi^2(k)$ distribution is given by
+	\begin{align}
+		p_X(x) = \frac{x^{\frac{k}{2}-1}e^{-\frac{x}{2}}}{2^{\frac{k}{2}}\Gamma\brak{\frac{k}{2}}} u(x)
+	\end{align}
+\item The Beta function is defined as
+	\begin{align}
+		B\brak{x,y} = \frac{\Gamma(x)\Gamma(y)}{\Gamma\brak{x+y}}
+	\end{align}
+\end{enumerate}
+\subsection{Problems}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Let $X_1 \sim \chi^2\brak{m}$ and $X_2 \sim \chi^2\brak{n}$ be independent.  For 
+	\begin{align}
+		Z = \frac{X_1/m}{X_2/n},
+	\end{align}
+	show that 
+	\begin{align}
+		F_Z(z) = E\sbrak{F_{X_1}\brak{\frac{mzX_2}{n}}}
+	\end{align}
+\item Show that 
+	\begin{align}
+		p_Z(z) = E\sbrak{\frac{mX_2}{n}p_{X_1}\brak{\frac{mzX_2}{n}}}
+	\end{align}
+\item Show that 
+	\begin{align}
+		p_Z(z) = \frac{\brak{\frac{m}{n}}^{m/2}}{B\brak{\frac{m}{2},\frac{n}{2}}}x^{\frac{m}{2}-1}\brak{1 + \frac{m}{n}z}^{-\frac{m+n}{2}}u(z)
+	\end{align}
+ $Z$ has an $F$ distribution with \brak{m, n} degrees of freedom.
+		\item Show that $Y = \frac{1}{Z}$ is monotonic. 
+		\item Show that $Y$ also has
+			an $F$ distribution with \brak{n, m} degrees of freedom.
+		\item  Find the pdf of $\frac{mZ}{mZ + n}$. 
+
+\end{enumerate}
+
+\section{Inequalities}
+\subsection{Definitions}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item The mean of $Y$ is defined as
+\begin{align}
+E\brak{Y} = \sum_{k}kp_Y(k)
+\end{align}
+\item The MGF of $X$ is defined as 
+\begin{align}
+	M_{X}(s) = E\brak{e^{-sX}}
+\end{align}
+\item Let 
+ $X \sim \mathcal{N}(0, 1)$.  Then the 
+	$Q$ function is defined as,
+\begin{align}
+	Q(x) = \pr{X>x}, \quad x \ge 0
+\end{align}
+
+\end{enumerate}
+\subsection{Problems}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Show that
+\begin{align}
+	E\brak{Y} \ge \sum_{k=m}^{\infty}kp_{Y}(k), \quad m > 0
+\end{align}
+\item Show that
+\begin{align}
+	\pr{Y>m} \le \frac{E\brak{Y}}{ m}, \quad  m > 0
+	\label{eq:markov}
+\end{align}
+\item Using 
+	\eqref{eq:markov}, show that 
+Show that
+\begin{align}
+	\pr{\sbrak{Y-E\brak{Y}}^2>b^2} \le \frac{var(Y)}{b^2}, \quad b > 0
+\end{align}
+\item Show that 
+\begin{align}
+	\pr{\abs{Y-E\brak{Y}}>b} \le \frac{var(Y)}{b^2}, \quad b > 0
+\end{align}
+\item Show that 
+\begin{align}
+	\pr{X > a} = \pr{e^{-sX}> e^{-sa}}, \quad s < 0
+\end{align}
+\item Using 
+	\eqref{eq:markov}, show that 
+\begin{align}
+	\label{eq:chernoff}
+	\pr{X > a}\le e^{as}M_X(s), \quad s < 0
+\end{align}
+\item Show that the MGF of $X$ is 
+\begin{align}
+	M_X(s) = e^{\frac{1}{2}s^2}
+\end{align}
+\item Using 
+	\eqref{eq:chernoff}
+show that 
+\begin{align}
+	Q\brak{x} \le e^{-\frac{x^2}{2}}
+\end{align}
+
+ \end{enumerate}
+%
+%%\end{enumerate}
 \end{document}
