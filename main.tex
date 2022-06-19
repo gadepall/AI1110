@@ -877,5 +877,199 @@ show that
 
  \end{enumerate}
 %
-%%\end{enumerate}
+\section{Jensen's Inequality}
+\subsection{Definitions}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item A function $g$ is said to be convex if 
+\begin{align}
+	g\brak{\lambda x_1 + \brak{1-\lambda}x_2} \le \lambda g(x_1)+\brak{1-\lambda} g(x_2)
+	\label{eq:convex-def}
+\end{align}
+\item $g$ is convex if and only if
+\begin{align}
+	g^{\prime\prime}(x) \ge 0
+\end{align}
+\item The {\em information} associated with an event $E$ is defined as
+\begin{align}
+	I\brak{E} = -\log_2\brak{p(E)}
+\end{align}
+\item The {\em entropy} of a random variable $X$ is given by 
+\begin{align}
+	H\brak{X} = -E\sbrak{\log_2\brak{p\brak{X}}}
+\end{align}
+\item For a {\em bernoulli} random variable $Y\in\cbrak{0,1}$, the p.m.f is given by 
+\begin{align}
+	p_Y(k) = 
+	\begin{cases}
+		p & k = 0
+		\\
+		1-p & k = 1
+	\end{cases}
+\end{align}
+
+\end{enumerate}
+\subsection{Problems}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Show that $\log\brak{\frac{1}{x}}$  is convex.
+\item Show that
+\begin{align}
+	H(Y) = -p\log_2p - \brak{1-p} \log_2\brak{1-p}
+\end{align}
+		and find the maximum value of $H(Y)$.
+	\item Let $X \in \cbrak{x_1,x_2}$ and
+\begin{align}
+	\lambda = q = p_X(X = x_1)
+\end{align}
+in
+	\eqref{eq:convex-def}.
+		Show that
+\begin{align}
+	E\sbrak{g(X)} \ge g\sbrak{E\brak{X}}
+	\label{eq:jensen}.
+\end{align}
+\item Using 
+	\eqref{eq:jensen},
+show that 
+\begin{align}
+	H(Y) \le 1
+\end{align}
+ \end{enumerate}
+%
+ \section{Maximum Likelihood Condition}
+ \subsection{Definitions}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{section}
+\item The pmf for a Binomial Random variable  $ Y \sim \brak{n, p}$ is given by 
+\begin{align}
+ p_Y\brak{Y=k}  = \binom{n}{k}  p^k \brak{1-p}^{n-k}, \quad 0 \le k \le n
+\end{align}
+\item The pdf of an Exponential Random variable  $ X $ is given by
+\begin{align}
+ p_X\brak{x}  = ce^{-cx}u\brak{x}
+\end{align}
+\end{enumerate}
+\subsection{Problems}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\item Show that  the solution of 
+\begin{align}
+ \max_{p} p_Y\brak{Y=k} 
+\end{align} 
+is 
+		\begin{align}
+			\hat{p} = \dfrac{k}{n} 
+\end{align} 
+\item  Find
+\begin{align}
+\pr{X > T} 
+\end{align} 
+		where T is a constant.
+\item If $X$ represents the lifetime of a bulb,
+	show that the value of $c$ that maximizes the probability of $k$ out of $n$ bulbs working after $T$ hours is
+\begin{align}
+c = \dfrac{1}{T}\log \brak{\dfrac{n}{k}}
+\end{align}
+ \end{enumerate}
+
+ \section{Maximum Likelihood Condition}
+ \subsection{Definitions}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{section}
+\item The pmf for a Bernoulli r.v. $X_i$ is given by 
+    \begin{align}
+	    p_{X_i}(k) =
+    \begin{cases}
+p_0 & k = 1
+\\
+1-p_0 & k = 0
+\\
+0 & \text{otherwise}
+    \end{cases}
+\end{align}
+\item The pmf for a Binomial Random variable 
+\begin{align}
+	X = \sum_{i=1}^{n}X_i
+\end{align}
+is given by 
+\begin{align}
+ p_X\brak{X=k}  = \binom{n}{k}  p_0^k \brak{1-p_0}^{n-k}, \quad 0 \le k \le n
+\end{align}
+where $X_i$ are i.i.d.
+\item Let 
+ $Z \sim \mathcal{N}(0, 1)$.  Then the 
+	$Q$ function is defined as,
+\begin{align}
+	Q(z) = \pr{Z>z}, \quad z \ge 0
+\end{align}
+\item The MGF of $Y$ is defined as 
+\begin{align}
+	M_{Y}(s) = E\brak{e^{-sY}}
+\end{align}
+\item The MGF of $Z$ is 
+\begin{align}
+	M_Z(s) = \frac{1}{2}e^{\frac{1}{2}s^2}
+\end{align}
+\item 
+\begin{align}
+	\lim_{n \to \infty}	\brak{1 + \frac{1}{n}}^{n} = e 
+\end{align}
+
+ \end{enumerate}
+ \subsection{Problems}
+\begin{enumerate}[label=\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{section}
+\item Show that the mean and variance of $X_i$ are $\mu = p_0$ and $\sigma^2 = p \brak{1-p}$. 
+\item Show that the mean and variance of 
+\begin{align}
+	Y_i = \frac{X_i - \mu}{\sigma}
+\end{align}
+are 0 and 1 respectively.
+\item Show that the mean and variance of 
+\begin{align}
+	Y = \frac{1}{\sqrt{n}}\sum_{i=1}^{n}Y_i
+\end{align}
+are 0 and 1 respectively.
+\item Show that
+\begin{align}
+	M_Y(s) &= \sbrak{E\brak{e^{-\frac{sY_i}{\sqrt{n}}}}}^n
+\end{align}
+\item Show that 
+\begin{align}
+	E\brak{e^{-\frac{sY_i}{\sqrt{n}}}} = 1 + \frac{1}{2n}+ \frac{1}{n}R(s,n)
+\end{align}
+		where $R(s,n)$ is an infinite series.
+	\item Show that 
+\begin{align}
+	\lim_{n \to \infty} Y = Z
+\end{align}
+		This is known as the {\em Central Limit Theorem}.
+	\item Let
+		\begin{align}
+	p = \frac{1}{n}\sum_{i=1}^{n}X_i
+\end{align}
+Show that 
+		\begin{align}
+			E\brak{p} &= \mu = p_0
+			\\
+			var\brak{p} &= \frac{\sigma^2}{n} = \frac{p_0\brak{1-p_0}}{n}
+\end{align}
+\item Show that 
+\begin{align}
+	\lim_{n \to \infty} \frac{p-p_0}{\sqrt{\frac{p_0\brak{1-p_0}}{n}}} = Z
+\end{align}
+\item Find $z$ if 
+\begin{align}
+	\pr{\abs{Z} < z} = 1-\alpha
+\end{align}
+\item Show that 
+\begin{align}
+	p_0 - \sqrt{\frac{p_0\brak{1-p_0}}{n}}Q^{-1}\brak{\frac{\alpha}{2}}
+	< p <
+	p_0 + \sqrt{\frac{p_0\brak{1-p_0}}{n}}Q^{-1}\brak{\frac{\alpha}{2}}
+\end{align}
+\item Among 4000 newborns, 2080 are male.  Find the $1 -\alpha = 0.99$ confidence interval of the probability that a male child is born.
+ \end{enumerate}
+
 \end{document}
