@@ -376,15 +376,16 @@ and plot its CDF.
 \item Find the theoretical expressions for the PDF and CDF of $T$.
 \item Verify your results through a plot. 
 \end{enumerate}
-\section{Maximul Likelihood}
+\section{Maximum Likelihood}
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
+\item Generate equiprobable $X \in \cbrak{1,-1}$.
 \item Generate 
 \begin{equation}
 Y = AX+N,
 \end{equation}
-		where $A = 5 \text{ dB}, X \i \cbrak{1,-1}$,  is Bernoulli and $N \sim \gauss{0}{1}$.
-	\item Plot $Y$.
+		where $A = 5$ dB,  and $N \sim \gauss{0}{1}$.
+	\item Plot $Y$ using a scatter plot.
 	\item Guess how to estimate $X$ from $Y$.
 \item
 \label{ml-ch4_sim}
@@ -397,11 +398,18 @@ and
 	P_{e|1} = \pr{\hat{X} = 1|X=-1}
 \end{equation}
 %
-\item Find $P_e$.
+\item Find $P_e$ assuming that $X$ has equiprobable symbols.
 
 %
 \item
-Verify by plotting  the theoretical $P_e$.  
+Verify by plotting  the theoretical $P_e$ with respect to $A$ from 0 to 10 dB.  
+%
+\item Now, consider a threshold $\delta$  while estimating $X$ from $Y$. Find the value of $\delta$ that maximizes the theoretical $P_e$.
+\item Repeat the above exercise when 
+	\begin{align}
+		p_{X}(0) = p
+	\end{align}
+\item Repeat the above exercise using the MAP criterion.
 
 		\end{enumerate}
 \section{Gaussian to Other}
@@ -446,7 +454,6 @@ A = \sqrt{V}
 \section{Conditional Probability}
 \begin{enumerate}[label=\thesection.\arabic*
 ,ref=\thesection.\theenumi]
-\item
 \item
 \label{ch4_sim}
 Plot 
